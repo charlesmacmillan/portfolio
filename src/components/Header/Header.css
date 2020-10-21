@@ -12,6 +12,10 @@
     margin-bottom: 0;
 }
 
+.Header p {
+    margin: 10px;
+}
+
 .Header a {
     color: rgb(84, 148, 204);
     text-decoration: none;
