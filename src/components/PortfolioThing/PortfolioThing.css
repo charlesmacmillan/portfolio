@@ -43,6 +43,11 @@
     margin: 0 0 5px;
 }
 
+.info h3 {
+    text-decoration: underline;
+    margin: 1px;
+}
+
 .info p {
     display: none;
     font-size: 14px;
@@ -55,6 +60,10 @@
     color: rgb(84, 148, 204);
     text-decoration: none;
     border-radius: 5px;
+}
+
+.info span {
+    margin: 0;
 }
 
 .info a:hover {
