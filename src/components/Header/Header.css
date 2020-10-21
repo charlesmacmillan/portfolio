@@ -1,0 +1,36 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.Header h1 {
+    margin-bottom: 0;
+}
+
+.Header a {
+    color: rgb(84, 148, 204);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Header a:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.profile-pic {
+    background-image: url('https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/118156087_10157567923392285_8250194324875300449_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=DnGXrVM2tP0AX9hT-q6&_nc_ht=scontent.fapa1-2.fna&oh=201c1deff5cf39202ae2b9fdd44ce5b2&oe=5FB69DB9');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid whitesmoke;
+    width: 250px;
+    height:  275px;
+    border-radius: 25px;
+}
