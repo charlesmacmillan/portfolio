@@ -12,7 +12,7 @@ const PortfolioThing = props => {
                 <p>
                     <a target="_blank" href={props.site.url}>Visit Site</a> <br/>
                     {props.site.about} <br/>
-                    <h3>technologies used: </h3>
+                    <h3>Technologies Used: </h3>
                     {props.site.technologies.map((tech, i)=> 
                     <span>{tech}{i < props.site.technologies.length - 1 ? "," : "" } </span>
                     )} 
